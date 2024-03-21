@@ -7,7 +7,7 @@ export default function Product({product}) {
       <div className="head flex flex-1 flex-row items-center justify-center">
         <img src={product[4]} alt={product[0]} className=' w-16 h-16' />
         <h1 className=' font-bold tracking-wider text-2xl text-center text-slate-100 py-8 pt-8'>
-          {product[0]}
+          &nbsp;{product[0]}
         </h1>
       </div>
       <div className="props flex flex-col gap-8 items-center py-4  border-[1px] shadow-[0px_8px_44px_-4px_coral] border-red-500 rounded-md px-4 max-w-[340px] pb-12">
@@ -25,7 +25,6 @@ export default function Product({product}) {
           </div>
       </div>
       <br />
-      {/* <hr className=' border-yellow-600' /> */}
     </div>
   )
 }

@@ -26,6 +26,10 @@ import cimg from '../assets/coconut.png'
 import onsimg from '../assets/onionseeds.png'
 import aimg from '../assets/almond.png'
 
+import amazon from '../assets/SM/amazon.png'
+import facebook from '../assets/SM/facebook.png'
+import instagram from '../assets/SM/instagram.png'
+
 export const details = [
     [img1, "Luxurious Hydration", "Rich in essential fatty acids and vitamins, Tailum Almond Oil deeply nourishes and locks in moisture for a radiant, healthy glow."],
     [img2, "Versatile Goodness", "Use it as a daily moisturizer, massage oil, makeup remover, or hair treatment for endless benefits."],
@@ -72,4 +76,8 @@ const coconuts = [
 
 export const products = [
     almonds, walnuts, coconuts, onions
+]
+
+export const smIcons = [
+    facebook, instagram, amazon
 ]
