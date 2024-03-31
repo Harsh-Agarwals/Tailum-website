@@ -19,7 +19,8 @@ const ImageCarousel = ({ images }) => {
             key={index}
             src={image}
             alt={image}
-            className=" max-w-[320px] rounded-md max-h-[320px] object-cover"
+            className=" max-w-[320px] rounded-md max-h-[320px] object-contain"
+            // object-cover
             style={{ width: `${100 / images.length}%` }}
           />
         ))}

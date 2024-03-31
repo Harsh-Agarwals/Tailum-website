@@ -5,7 +5,7 @@ export default function Product({product}) {
   return (
     <div>
       <div className="head flex flex-1 flex-row items-center justify-center">
-        <img src={product[4]} alt={product[0]} className=' w-16 h-16' />
+        <img src={product[4]} alt={product[0]} className='w-16 h-16' />
         <h1 className=' font-bold tracking-wider text-2xl text-center text-slate-100 py-8 pt-8'>
           &nbsp;{product[0]}
         </h1>

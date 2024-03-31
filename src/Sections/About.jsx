@@ -3,7 +3,7 @@ import bottle from "../assets/tt1.png"
 
 export default function About() {
   return (
-    <div className='px-8 py-16 flex flex-1 flex-col items-center justify-center gap-12 sm:gap-4 sm:flex-row'>
+    <div id='about' className='px-8 py-16 flex flex-1 flex-col items-center justify-center gap-12 sm:gap-4 sm:flex-row'>
       <div className="about sm:max-w-[60%]">
         <h1 className=' font-bold text-3xl py-4 tracking-wide text-gray-700'>
             <span className=' bg-gradient-to-r from-amber-600 to-red-600 text-transparent bg-clip-text'>Tailum Premium Oils:</span> The Golden Elixir for Hair and Skin</h1>
