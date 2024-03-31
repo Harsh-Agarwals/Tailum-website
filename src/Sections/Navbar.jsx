@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from '../assets/tailum_logo.png'
-import {smIcons} from '../Contents/index.js'
 
 export default function Navbar() {
   return (
@@ -18,7 +17,6 @@ export default function Navbar() {
             <a href="#contact"><li className='text-base font-semibold mt-4 sm:mt-0 sm:ms-4 bg-gradient-to-r from-amber-400 to-red-400 py-1 px-4 rounded-md text-white hover:from-amber-500 hover:to-red-500'>Contact</li></a>
         </ul>
       </div>
-      <a href="https://wa.me/+918966808236/text=urlencodedtext"><img src={smIcons[3]} alt="whatsapp" className='w-10 fixed bottom-[2rem] right-[2rem] z-50' /></a>
     </div>
   )
 }
