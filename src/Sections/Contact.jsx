@@ -37,7 +37,7 @@ export default function Contact() {
       <div className="social-media flex flex-1 flex-col">
         <h2 className='pt-6 pb-4 sm:pt-0 text-2xl font-semibold text-center text-red-800 underline underline-offset-2'>Contact Us</h2>
         <div className="contact-lists text-center pt-4">
-            <p className='tracking-wide text-amber-700 text-sm sm:pt-6 sm:py-2'><span className='font-semibold text-amber-900'>Email@: </span><span className='hover:text-amber-600'>singhania.priyanka.7@gmail.com</span></p>
+            <p className='tracking-wide text-amber-700 text-sm sm:pt-6 sm:py-2'><span className='font-semibold text-amber-900'>Email@: </span><span className='hover:text-amber-600'>thetailumbypriyanka@gmail.com</span></p>
             <p className='tracking-wide text-amber-700 text-sm sm:py-2'><span className='font-semibold text-amber-900'>Call Us @: </span><span className='hover:text-amber-600'>+91 8966808236</span></p>
             <p className='tracking-wide text-amber-700 text-sm sm:py-2'><span className='font-semibold text-amber-900'>Addesss: </span><span className='hover:text-amber-600'>Plot number - 12, Main road, Kosabadi, Korba: 495677, Chhattisgarh</span></p>
         </div>
